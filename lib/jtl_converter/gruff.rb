@@ -7,6 +7,7 @@ module JtlConverter
     def initialize(jtl_file, interval = 10_000, img_path = 'img')
       @jtl      = Jtl.new(jtl_file, interval: interval)
       @img_path = img_path
+      Dir::mkdir @img_path unless File.exists? @img_path
     end
 
     def all
