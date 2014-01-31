@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'jtl/converter'
+require 'jtl_converter/command'
+
+JtlConverter::Command.start
