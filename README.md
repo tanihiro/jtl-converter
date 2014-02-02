@@ -1,6 +1,6 @@
-# Jtl::Converter
+# JtlConverter
 
-TODO: Write a gem description
+convert text and image results jmeter
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+convert text
+
+    $ jtl-converter text jmeter.jtl
+
+convert image
+
+    $ jtl-converter image jmeter.jtl --img_dir=img
 
 ## Contributing
 
